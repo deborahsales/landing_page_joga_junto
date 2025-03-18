@@ -91,9 +91,14 @@
 }
 
 .cabecalho {
-  padding: 2% 0% 2% 50%;
+  padding: 1% 0% 1% 50%;
   background-color: var(--cor-laranja);
   align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
 }
 
 .vertical {
@@ -113,6 +118,7 @@
 
 .logo__ct {
   width: 50%;
+  margin-right: 10%;
 }
 
 .logo {
