@@ -8,27 +8,38 @@
   </head>
   <body>
     <header class="cabecalho">
+      <a class="ancora__principal" href="#home"
+        ><h1 class="titulo__cabecalho">Joga Junto</h1></a
+      >
       <nav class="cabecalho__menu">
         <a class="cabecalho__menu__link" href="#objetivo">Objetivo</a>
         <a class="cabecalho__menu__link" href="#mobile">Mobile</a>
         <a class="cabecalho__menu__link" href="#web">Web</a>
+        <a class="cabecalho__menu__link" href="#diferenciais">Diferenciais</a>
         <a class="cabecalho__menu__link" href="#desenvolvimento"
           >Desenvolvimento</a
         >
+        <a class="cabecalho__menu__link" href="#consultoria">Consultoria</a>
+        <a class="cabecalho__menu__link" href="#pitch">Pitch</a>
       </nav>
     </header>
-    <section class="principal flex">
+    <section id="home" class="principal flex">
       <div class="vertical">
         <h1 class="titulo">Joga Junto</h1>
         <h2 class="subtitulo">
           Aplicativo Web e mobile para gerenciamento de jogos esportivos
         </h2>
+        <div class="contato">
+          <a class="ancora" href="mailto:jogajunto@dcomp.ufs.br">
+            <h2 class="titulo__botao">Entre em contato</h2>
+          </a>
+        </div>
       </div>
       <div class="logo__ct">
         <img class="logo" src="./assets/logo.svg" alt="Logo Joga Junto" />
       </div>
     </section>
-    <section id="objetivo" class="container">
+    <section id="objetivo" class="container flex__column">
       <p class="descricao__objetivo">
         O Joga Junto nasceu para transformar a forma como eventos esportivos são
         organizados!
@@ -48,18 +59,25 @@
       <img src="./assets/mobile.png" alt="Mobile" class="imagem__mobile" />
       <div class="mobile__conteudo">
         <h2 class="subtitulo__secao">Aplicativo Mobile</h2>
-        <p class="descricao">Crie e participe de eventos</p>
+        <p class="descricao">
+          Seu jogo na palma da mão: crie, gerencie e participe de eventos
+          esportivos de qualquer lugar!
+        </p>
       </div>
     </section>
     <section id="web" class="container flex">
       <div class="web__conteudo">
         <h2 class="subtitulo__secao__web">Aplicação web</h2>
-        <p class="descricao">Gerencie seus espaços esportivos</p>
+        <p class="descricao">
+          Organização completa e intuitiva para espaços, quadras e reservas,
+          direto do seu navegador!
+        </p>
       </div>
       <img src="./assets/web.png" alt="Web" class="imagem__web" />
     </section>
-    <section id="diferenciais" class="container flex">
+    <section id="diferenciais" class="container__diferenciais">
       <div class="vertical">
+        <img src="./assets/tudo.svg" class="icone" alt="Tudo em um só lugar" />
         <h2 class="subtitulo__secao">Tudo em um só lugar</h2>
         <p class="descricao">
           Gerencie jogos, convide amigos, forme times e reserve espaços
@@ -67,21 +85,134 @@
         </p>
       </div>
       <div class="vertical">
+        <img
+          src="./assets/conectada.svg"
+          class="icone"
+          alt="Experiência conectada"
+        />
         <h2 class="subtitulo__secao">Experiência conectada</h2>
         <p class="descricao">
-          A plataforma funciona como uma rede social esportiva, aproximando
-          jogadores.
+          A plataforma funciona como uma rede social esportiva, conectando e
+          aproximando jogadores.
         </p>
       </div>
       <div class="vertical">
+        <img
+          src="./assets/esportes.svg"
+          class="icone"
+          alt="Para todos os esportes"
+        />
         <h2 class="subtitulo__secao">Para todos os esportes</h2>
         <p class="descricao">
           Seja futebol, basquete, vôlei ou qualquer outro esporte, o Joga Junto
           se adapta às suas necessidades.
         </p>
       </div>
+      <div class="vertical">
+        <img
+          src="./assets/inteligente.svg"
+          class="icone"
+          alt="Gestão inteligente"
+        />
+        <h2 class="subtitulo__secao">Gestão inteligente</h2>
+        <p class="descricao">
+          Gerencie reservas e quadras de forma simplificada e alcance mais
+          clientes sem burocracia
+        </p>
+      </div>
     </section>
-    <section id="desenvolvimento" class="container"></section>
+    <section id="desenvolvimento" class="container__devs">
+      <h2 class="titulo__desenvolvimento">Desenvolvimento</h2>
+      <div class="devs">
+        <div class="dev_box">
+          <img
+            src="./assets/arthur.png"
+            class="img__desenvolvedor"
+            alt="Arthur"
+          />
+          <h3 class="nome__desenvolvedor">Arthur Barbosa</h3>
+        </div>
+        <div class="dev_box">
+          <img
+            src="./assets/carlos.png"
+            class="img__desenvolvedor"
+            alt="Carlos"
+          />
+          <h3 class="nome__desenvolvedor">Carlos Santos</h3>
+        </div>
+        <div class="dev_box">
+          <img
+            src="./assets/deborah.png"
+            class="img__desenvolvedor"
+            alt="Déborah"
+          />
+          <h3 class="nome__desenvolvedor">Déborah Sales</h3>
+        </div>
+        <div class="dev_box">
+          <img src="./assets/rai.png" class="img__desenvolvedor" alt="Raí" />
+          <h3 class="nome__desenvolvedor">Raí Silva</h3>
+        </div>
+      </div>
+      <div class="devs">
+        <div class="dev_box">
+          <img
+            src="./assets/guilherme.png"
+            class="img__desenvolvedor"
+            alt="Guilherme"
+          />
+          <h3 class="nome__desenvolvedor">Guilherme Carvalho</h3>
+        </div>
+        <div class="dev_box">
+          <img src="./assets/isac.png" class="img__desenvolvedor" alt="Isac" />
+          <h3 class="nome__desenvolvedor">Isac Santos</h3>
+        </div>
+        <div class="dev_box">
+          <img
+            src="./assets/marcelo.png"
+            class="img__desenvolvedor"
+            alt="Marcelo"
+          />
+          <h3 class="nome__desenvolvedor">Marcelo Lima</h3>
+        </div>
+      </div>
+    </section>
+    <section id="consultoria" class="container__devs">
+      <h2 class="titulo__desenvolvimento">Consultoria Técnica</h2>
+      <div class="devs">
+        <div class="dev_box">
+          <img
+            src="./assets/debora.png"
+            class="img__desenvolvedor"
+            alt="Debora"
+          />
+          <h3 class="nome__desenvolvedor">Debora Nascimento</h3>
+        </div>
+        <div class="dev_box">
+          <img
+            src="./assets/edward.png"
+            class="img__desenvolvedor"
+            alt="Edward"
+          />
+          <h3 class="nome__desenvolvedor">Edward Ordonez</h3>
+        </div>
+        <div class="dev_box">
+          <img
+            src="./assets/giovanny.png"
+            class="img__desenvolvedor"
+            alt="Giovanny"
+          />
+          <h3 class="nome__desenvolvedor">Giovanny Palma</h3>
+        </div>
+      </div>
+    </section>
+    <section id="pitch" class="video-container">
+      <h2 class="titulo__desenvolvimento">Vídeo Pitch</h2>
+      <iframe
+        src="https://www.youtube.com/embed/VIDEO_ID"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </section>
   </body>
   <footer class="footer">
     <img src="./assets/ufs.svg" class="img__footer" alt="Logo UFS" />

@@ -21,14 +21,81 @@
 }
 
 .container {
-  padding: 10%;
   background-color: var(--cor-primaria);
+  height: 100vh;
+}
+
+.container__diferenciais {
+  background-color: var(--cor-primaria);
+  height: 100vh;
+  display: flex;
+  gap: 5em;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5% 0 5%;
+}
+
+.container__devs {
+  background-color: var(--cor-primaria);
+  display: flex;
+  gap: 5vw;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.5% 5% 0 5%;
+}
+
+.titulo__desenvolvimento {
+  font-size: 4em;
+  width: 100%;
+  text-align: start;
+  font-family: var(--fonte-primaria);
+  color: var(--cor-secundaria);
+}
+
+.nome__desenvolvedor {
+  font-size: 1em;
+  width: 100%;
+  text-align: center;
+  font-family: var(--fonte-primaria);
+  color: var(--cor-secundaria);
+}
+
+.dev_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3vw;
+}
+
+.devs {
+  display: flex;
+  gap: 3vw;
+}
+
+.img__desenvolvedor {
+  width: 10vw;
 }
 
 .flex {
   display: flex;
-  gap: 15em;
+  gap: 8em;
   align-items: center;
+  justify-content: center;
+}
+
+.flex__column {
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+  align-items: center;
+  justify-content: center;
+}
+
+.icone {
+  width: 5vw;
 }
 
 .titulo {
@@ -37,6 +104,14 @@
   text-align: start;
   font-family: var(--fonte-primaria);
   color: var(--cor-primaria);
+  padding: 0 0 0 30%;
+}
+
+.titulo__cabecalho {
+  font-size: 2em;
+  width: 100%;
+  text-align: start;
+  font-family: var(--fonte-primaria);
   padding: 0 0 0 30%;
 }
 
@@ -82,23 +157,70 @@
 
 .descricao__objetivo {
   font-size: 2em;
-  width: 100%;
+  width: 80%;
   text-align: start;
   font-family: var(--fonte-secundaria);
-  padding: 20px;
   font-weight: 600;
   color: var(--cor-secundaria);
 }
 
+.contato {
+  background-color: var(--cor-primaria);
+  border-radius: 1em;
+  margin: 0 0 0 30%;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.video-container {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  margin: 0 auto;
+  background-color: var(--cor-primaria);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3em;
+  padding: 0 5% 0 5%;
+}
+
+.video-container iframe {
+  width: 60%;
+  height: 60%;
+}
+
+.contato:hover {
+  background-color: var(--cor-laranja);
+  margin: 0 0 0 30%;
+}
+
+.titulo__botao {
+  color: var(--cor-secundaria);
+  font-family: var(--fonte-primaria);
+  padding: 5% 0 5% 0;
+}
+
+.ancora {
+  text-decoration: none;
+}
+
 .cabecalho {
-  padding: 1% 0% 1% 50%;
+  padding: 1% 0% 1% 0%;
   background-color: var(--cor-laranja);
   align-items: center;
+  justify-content: space-evenly;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 100;
+  display: flex;
+}
+
+.logo_titulo {
+  height: fit-content;
 }
 
 .vertical {
@@ -125,6 +247,16 @@
   width: 20vw;
 }
 
+.ancora__principal {
+  text-decoration: none;
+  color: var(--cor-primaria);
+}
+
+.ancora__principal:hover {
+  text-decoration: none;
+  color: var(--cor-secundaria);
+}
+
 .cabecalho__menu__link {
   font-family: var(--fonte-secundaria);
   text-decoration: none;
@@ -144,13 +276,13 @@
 .imagem__mobile {
   height: 70vh;
   width: fit-content;
-  padding: 0 0 0 10%;
+  margin-left: 15%;
 }
 
 .imagem__web {
   width: 40vw;
   height: fit-content;
-  padding: 0 10% 0 0;
+  margin-right: 10%;
 }
 
 .mobile__conteudo {
@@ -158,8 +290,8 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  gap: 8px;
-  padding: 0 10% 0 0;
+  gap: 2em;
+  margin-right: 10%;
 }
 
 .web__conteudo {
@@ -167,20 +299,19 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  gap: 8px;
-  padding: 0 0 0 10%;
+  gap: 2em;
+  margin-left: 15%;
 }
 
 .footer {
   display: flex;
   width: 100%;
-  height: 20vh;
+  height: 10vh;
   align-items: center;
   justify-content: center;
-  gap: 5%;
+  gap: 3em;
 }
 
 .img__footer {
-  height: 10vh;
-  padding: 1%;
+  height: 7vh;
 }
