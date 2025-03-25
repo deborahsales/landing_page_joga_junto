@@ -315,3 +315,177 @@
 .img__footer {
   height: 7vh;
 }
+
+@media screen and (max-width: 768px) {
+  .cabecalho {
+    padding: 4% 0% 4% 0%;
+  }
+
+  .titulo__cabecalho {
+    padding: 0;
+    color: var(--cor-secundaria);
+  }
+
+  .cabecalho__menu {
+    display: none;
+  }
+
+  .titulo {
+    width: fit-content;
+    font-size: 2.5em;
+    padding: 0;
+  }
+
+  .container {
+    padding-top: 20%;
+  }
+
+  .subtitulo {
+    font-size: 1.5em;
+    width: 90%;
+    text-align: center;
+    padding: 0;
+  }
+
+  .flex {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    gap: 1em;
+  }
+
+  .logo__ct {
+    margin: 0;
+    padding: 0;
+  }
+
+  .logo {
+    width: 100%;
+    padding: 0;
+  }
+
+  .contato {
+    width: 80%;
+    margin: 0;
+  }
+
+  .contato:hover {
+    margin: 0;
+  }
+
+  .descricao__objetivo {
+    font-size: 1.5em;
+  }
+
+  .subtitulo__secao {
+    padding: 0;
+  }
+
+  .dif {
+    font-size: 1.5em;
+    padding: 0;
+  }
+
+  .subtitulo__secao__web {
+    width: fit-content;
+    padding: 0;
+  }
+
+  .descricao {
+    width: 80%;
+    font-size: 1em;
+    text-align: center;
+  }
+
+  .mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+    height: fit-content;
+    padding: 30% 0 0 0;
+  }
+
+  .web {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 5em;
+    height: fit-content;
+    padding: 30% 0 0 0;
+  }
+
+  .web__conteudo {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+  }
+
+  .mobile__conteudo {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+  }
+
+  .imagem__mobile {
+    width: 80%;
+    height: fit-content;
+    padding: 0;
+    margin: 0;
+  }
+
+  .imagem__web {
+    width: 80%;
+    height: fit-content;
+    padding: 0;
+    margin: 0;
+  }
+
+  .container__diferenciais {
+    flex-direction: column;
+    padding-top: 40%;
+    gap: 4em;
+    height: fit-content;
+  }
+
+  .icone {
+    width: 20%;
+    height: fit-content;
+  }
+
+  .principal {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .vertical {
+    gap: 1.5em;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .titulo__desenvolvimento {
+    font-size: 1.5em;
+    width: fit-content;
+  }
+
+  .container__devs {
+    gap: 4em;
+    height: fit-content;
+    padding-top: 30%;
+  }
+
+  .video-container {
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    padding: 30% 0 30% 0;
+  }
+
+  .video-container iframe {
+    width: 90%;
+    height: 90%;
+  }
+}
