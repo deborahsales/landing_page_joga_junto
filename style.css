@@ -488,4 +488,8 @@
     width: 90%;
     height: 90%;
   }
+
+  .img__desenvolvedor {
+    width: 15vw;
+  }
 }
